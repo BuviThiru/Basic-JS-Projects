@@ -1,0 +1,33 @@
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around
+}
+
+.nav-links{
+    list-style: none;
+    text-decoration: none;
+    display:flex;
+    justify-content: center;
+   
+}
+
+.list{
+  margin-right:4em;
+}
+
+.main-container{
+    margin:auto;
+    text-align: center;
+    margin-top: 17rem;
+}
+
+.btn{
+    padding:1rem;
+    margin:2rem;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    cursor:pointer;
+    
+}
+

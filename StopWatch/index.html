@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STOPWATCH</title>
+    <link rel="stylesheet" href="/index.css">
+</head>
+<body>
+    <h1>STOPWATCH</h1>
+    <div class="main-container">
+        <div class="label">
+            <p>Hours</p> 
+            <p>Minutes</p>
+            <p>Seconds</p>
+        </div>
+        <div class="timer-box">
+            <input type="number" class="timer-box-item" id="hour" value="0" min="0" max="99">
+            <span class="colon-style">&#58;</span>
+            <input type="number" class="timer-box-item" id="minute" value="0" min="0" max ="60">
+            <span class="colon-style">&#58;</span>
+            <input type="number" class="timer-box-item" id="second" value="0" min="0" max ="60">
+        </div>
+    </div>
+
+    <div class="button-container">
+        <button class="btn btn-start">START</button>
+        <button class="btn btn-reset">RESET</button>
+    </div>
+    
+
+    <script src="/index.js"></script>
+</body>
+</html>
