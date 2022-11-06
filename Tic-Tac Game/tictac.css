@@ -25,7 +25,7 @@ h1{
     height:45vh;
     background-color: rgb(237, 170, 122);
     border-radius: 10px;
-    grid-template-columns:auto auto auto;
+    grid-template-columns:1fr 1fr 1fr;
     column-gap: 0.3rem;
     row-gap: 0.3rem;
     padding:1rem;
@@ -39,6 +39,7 @@ h1{
     font-size: 4rem;
     padding: 1rem; 
     text-align:center ;
+    
 }
 .playerX{
     color:rgb(39, 19, 171);
